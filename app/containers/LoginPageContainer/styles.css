@@ -1,0 +1,23 @@
+/* .loginPageContainer {
+} */
+
+.loginPageContainer .container {
+  background: #FFF;
+  width: 300px;
+  height: auto;
+  min-height: 400px;
+  padding: 20px;
+  box-shadow: 0 0 11px 4px #CCC;
+  margin: 0 auto;
+  margin-top: 120px;
+  margin-bottom: 50px;
+}
+
+.loginPageContainer .title {
+  font-size: 24px;
+  color: #B2B2B2;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: 1px 2px 6px #B2B2B2;
+}

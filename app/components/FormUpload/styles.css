@@ -1,0 +1,46 @@
+.formUpload {
+  /* stylelint-disable */
+  padding: 15px;
+  width: 260px;
+  margin: 0 auto;
+}
+
+.boxTitle span {
+  font-size: 12px;
+  color: #999;
+  margin-right: 0.5em;
+}
+
+.inputFile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.imagePreview img {
+  max-width: 200px;
+}
+
+.inputFile+label {
+  color: rgb(55, 55, 55);
+  background-color: #f5d12f;
+  max-width: 80%;
+  font-size: 1rem;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  padding: 0.625rem 1.25rem;
+  font-family: Arial;
+  margin-top: 20px;
+}
+
+.inputFile:focus+label, .inputFile.has-focus+label, .inputFile+label:hover {
+  background-color: #722040;
+  color: #fff;
+}

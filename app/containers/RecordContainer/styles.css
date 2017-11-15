@@ -1,0 +1,67 @@
+.recordContainer {
+  margin-top: 120px;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.buttonContainer {
+  width: 100%;
+  text-align: center;
+}
+
+.buttonContainer .buttonActionContainer {
+  display: inline-block;
+}
+
+.buttonContainer .buttonDivider {
+  display: inline-block;
+  margin: 5px;
+}
+
+.recordContainer table {
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-size: 12px;
+}
+
+.recordContainer table tr td {
+  border: 1px solid #CCC;
+  padding: 3px;
+}
+
+.recordContainer table tr .rowError {
+  background: #EAAEAE;
+  color: red;
+}
+
+.recordContainer .header {
+  background: #F2F2F2;
+  text-align: center;
+  font-weight: bold;
+}
+
+.containerInfo {
+  width: 625px;
+  height: auto;
+  padding: 10px;
+  margin: 0 auto;
+  background: #F2F2F2;
+  margin-top: 20px;
+  margin-bottom: 250px;
+  border-radius: 5px;
+}
+
+.loginInfo {
+  font-size: 24px;
+  margin: 0;
+}
+
+.logout {
+  margin: 0;
+  color: #0098DB;
+  cursor: pointer;
+}

@@ -1,0 +1,182 @@
+/*@font-face {
+  font-family: gothamLight;
+  src: url(fonts/GOTHAM-LIGHT.ttf);
+}
+
+@font-face {
+  font-family: gothamMedium;
+  src: url(fonts/GOTHAM-MEDIUM.ttf);
+}
+
+@font-face {
+  font-family: gothamBold;
+  src: url(fonts/GOTHAM-BOLD.ttf);
+}*/
+
+.mobile {
+  display: block;
+}
+
+.desktop {
+  display: none;
+}
+
+.navWhite {
+  width: 100%;
+  height: 30px;
+  background-color: #FFF;
+}
+
+.navWhite .contentRight {
+  float: right;
+}
+
+.contentRight span a {
+  text-decoration: none;
+  font-size: 12px;
+  font-family: gothamBold;
+  color: #363636;
+}
+
+.contentRight .timeText {
+  font-size: 12px;
+  font-family: gothamLight;
+  color: #363636;
+}
+
+.fixed {
+  position: fixed;
+  right: 0;
+  left: 0;
+}
+
+.header {
+  padding-left: 16px;
+  padding-right: 16px;
+  height: 50px;
+  width: 100%;
+  max-width: calc(768px + 16px * 2);
+  background: #F6D200;
+  margin: 0 auto;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.header ul {
+  padding: 0;
+  margin: 0;
+  float: right;
+}
+
+.header ul li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 65px;
+}
+
+.header ul li:last-child {
+  margin-right: 0;
+}
+
+.header ul li a,
+.header ul li span {
+  font-family: gothamMedium;
+  font-size: 12px;
+  color: #363636;
+  cursor: pointer;
+}
+
+.header .pplogo {
+  padding-top: 15px;
+  float: left;
+  width: 100px;
+  height: auto;
+  cursor: pointer;
+}
+
+.header .menu {
+  display: block;
+  float: right;
+  position: relative;
+  top: 15px;
+}
+
+.header .callCenter,
+.navWhite .callCenter {
+  width: 44px;
+  height: 44px;
+  float: right;
+  display: block;
+  position: relative;
+  top: 3px;
+  padding: 12px;
+  padding-top: 8px;
+  padding-left: 8px;
+}
+
+.navWhite .callCenter {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  float: left;
+  top: 0;
+  padding: 7px;
+  padding-top: 0;
+}
+
+.callCenter img {
+  width: 24px;
+}
+
+.header .pptext {
+  font-size: 12px;
+  position: relative;
+  top: 10px;
+  right: 8px;
+  display: block;
+  text-align: right;
+  float: right;
+  line-height: 15px;
+  font-family: gothamBold;
+}
+
+.pptext .timetext {
+  font-size: 10px;
+  font-family: gothamBold;
+}
+
+.header a {
+  color: #000;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 1025px) {
+  .desktop {
+    display: block;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .header {
+    max-width: 100%;
+    height: 50px;
+    padding: 11px 0;
+  }
+
+  .header .pplogo {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .callCenter img {
+    max-width: 100%;
+    height: auto;
+  }
+}

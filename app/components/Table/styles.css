@@ -1,0 +1,17 @@
+.table {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.table table {
+  margin: 0 auto;
+}
+
+.table table tr td {
+  border: 1px solid #CCC;
+  padding: 5px;
+}
+
+.table .header {
+  background: #F2F2F2;
+}

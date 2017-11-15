@@ -1,0 +1,72 @@
+.appHomePage {
+  min-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.appHomePage .title,
+.appHomePage .loginInfo,
+.appHomePage .logout {
+  font-size: 18px;
+  color: #B2B2B2;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.appHomePage .loginInfo {
+  font-size: 24px;
+  margin: 0;
+}
+
+.appHomePage .logout {
+  margin: 0;
+  color: #0098DB;
+  cursor: pointer;
+}
+
+.appHomePage .boxFile {
+  border: 1px solid #CCC;
+  width: 250px;
+  height: 200px;
+  padding: 10px;
+  background: #F2F2F2;
+  color: #B2B2B2;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.appHomePage .containerUpload {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.appHomePage .containerDownload {
+  background: #FFF;
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  padding: 20px;
+  box-shadow: 0 0 11px 4px #CCC;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+/* .desktop {
+  display: none;
+}
+
+.mobile {
+  display: block;
+}
+
+@media screen and (min-width: 1025px) {
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: block;
+  }
+} */

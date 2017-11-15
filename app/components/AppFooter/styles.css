@@ -1,0 +1,88 @@
+/*@font-face {
+  font-family: gothamLight;
+  src: url(fonts/GOTHAM-LIGHT.ttf);
+}
+
+@font-face {
+  font-family: gothamMedium;
+  src: url(fonts/GOTHAM-MEDIUM.ttf);
+}*/
+
+.mobile {
+  display: block;
+}
+
+.desktop {
+  display: none;
+}
+
+.footer {
+  padding: 20px 16px;
+  height: auto;
+  width: 100%;
+  max-width: calc(768px + 16px * 2);
+  background: #EBEBEB;
+  margin: 0 auto;
+}
+
+.footer .pptext {
+  /* line-height: 64px; */
+  font-size: 12px;
+  display: block;
+  font-family: gothamLight;
+}
+
+.footer .pptextBold {
+  font-family: gothamMedium;
+}
+
+.footer img {
+  margin-bottom: 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+.footer ul {
+  padding: 0;
+  margin: 0;
+}
+
+.footer ul li {
+  list-style: none;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  font-size: 12px;
+  font-family: gothamLight;
+  color: #464646;
+}
+
+.footer .textCopyright {
+  font-size: 12px;
+  font-family: gothamLight;
+  float: right;
+  color: #464646;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1025px) {
+  .desktop {
+    display: block;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .footer {
+    max-width: 100%;
+    width: auto;
+    padding: 39px 0;
+    width: 100%;
+  }
+}

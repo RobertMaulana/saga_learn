@@ -1,0 +1,82 @@
+/*@font-face {
+  font-family: gothamLight;
+  src: url(fonts/GOTHAM-LIGHT.ttf);
+}*/
+
+.formDatePickerContainer {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  height: auto;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+.formDatePicker {
+  width: 100%;
+  padding: 1em 1.5em;
+  border-bottom: 1px solid rgb(227, 227, 232);
+  display: inline-block;
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.formDatePickerError {
+  width: 100%;
+  padding: 1em 1.5em;
+  border-bottom: 1px solid #FF9765;
+  background-color: #FFD6D6;
+  display: inline-block;
+  padding-top: 3px;
+  padding-left: 22px;
+}
+
+.formDatePicker label,
+.formDatePicker span {
+  font-size: 12px;
+  color: #898989;
+  float: left;
+  text-transform: capitalize;
+  font-family: gothamLight;
+}
+
+.formDatePicker input,
+.formDatePickerError input {
+  float: left;
+  margin-bottom: -25px;
+  margin-top: -5px;
+  height: 42px;
+  width: 100%;
+  padding-top: 24px !important;
+  padding-right: 0 !important;
+  padding-bottom: 0 !important;
+  padding-left: 0 !important;
+  text-transform: uppercase;
+  font-size: 14px;
+  bottom: 20px;
+  position: relative;
+  z-index: 2;
+  font-family: gothamLight;
+}
+
+.formDatePicker span,
+.formDatePickerError span {
+  font-size: 12px;
+  position: relative;
+  top: -6px;
+}
+
+.notError {
+  display: none;
+}
+
+.error {
+  color: red;
+  max-width: 195px;
+  line-height: 14px;
+  font-size: 10px;
+  padding-left: 20px;
+}

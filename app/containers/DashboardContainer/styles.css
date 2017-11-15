@@ -1,0 +1,49 @@
+/* .dashboardContainer {
+} */
+
+.container {
+  /*width: 1000px;*/
+  margin: 0 20px;
+}
+
+.containerChart {
+  margin-top: 120px;
+  margin-bottom: 30px;
+}
+
+.containerInfo {
+  width: 625px;
+  height: auto;
+  padding: 10px;
+  margin: 0 auto;
+  background: #F2F2F2;
+  margin-top: 20px;
+  margin-bottom: 250px;
+  border-radius: 5px;
+}
+
+.loginInfo {
+  font-size: 24px;
+  margin: 0;
+}
+
+.chartsContainer{
+  background-color: #fff;
+}
+
+.logout {
+  margin: 0;
+  color: #0098DB;
+  cursor: pointer;
+}
+
+.flexbox{
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexboxChartHorizontal {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
